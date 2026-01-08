@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only --ignore-watch node_modules index.ts"
+  }
+}
